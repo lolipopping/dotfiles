@@ -138,6 +138,7 @@ bindsym $mod+Control+Right workspace next
 bindsym $mod+Control+Left workspace prev
 bindsym $mod+Control+l workspace next
 bindsym $mod+Control+h workspace prev
+bindsym $mod+Tab workspace next
 
 # move container to workspace next/prev
 bindsym $mod+Control+Shift+Right move container to workspace next
@@ -186,3 +187,6 @@ bar {
         tray_output primary
         position top
 }
+
+# Start feh as background 
+exec --no-startup-id feh --bg-scale ~/Pictures/wall.png 

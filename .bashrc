@@ -116,4 +116,4 @@ fi
 
 
 #alias
-alias keepass="wine-development ~/Downloads/Keepass/KeePass.exe"
+alias torrent="cd ~/Downloads/torrent/"
