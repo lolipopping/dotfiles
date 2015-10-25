@@ -17,7 +17,7 @@ set $mod Mod4
 font pango:Inconsolata 11
 
 #border style of new windows 
-new_window 1pixel
+#new_window 1pixel
 
 # This font is widely installed, provides lots of unicode glyphs, right-to-left
 # text rendering and scalability on retina/hidpi displays (thanks to pango).
@@ -190,3 +190,8 @@ bar {
 
 # Start feh as background 
 exec --no-startup-id feh --bg-scale ~/Pictures/wall.png 
+
+#needed to get gaps working
+for_window [class="^.*"] border pixel 0
+gaps inner 20
+
