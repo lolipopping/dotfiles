@@ -113,7 +113,6 @@ if ! shopt -oq posix; then
 fi
 
 
-
-
+export XTERM='urxvt'
 #alias
 alias torrent="cd ~/Downloads/torrent/"

@@ -1,0 +1,11 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =9
+let g:netrw_dirhist_1='/home/loli/.config/openbox'
+let g:netrw_dirhist_2='/home/loli/.config/Thunar'
+let g:netrw_dirhist_3='/home/loli/.config'
+let g:netrw_dirhist_4='/home/loli/Downloads/solarized'
+let g:netrw_dirhist_5='/home/loli/Downloads/solarized/vim-colors-solarized'
+let g:netrw_dirhist_6='/home/loli/Documents/projects/8puzzle/test'
+let g:netrw_dirhist_7='/home/loli/.config/xfce4/xfconf'
+let g:netrw_dirhist_8='/home/loli/.config/xfce4/xfconf/xfce-perchannel-xml'
+let g:netrw_dirhist_9='/home/loli/.config/xfce4/xfconf'
